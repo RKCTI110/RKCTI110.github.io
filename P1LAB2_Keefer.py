@@ -30,7 +30,7 @@ meal_total = burger_total + fry_total
 #format() lets us only show 2 decimal places
 
 print("-" * 20)
-print(num_burgers, "🍔 burger\t$", burger_total)
-print(num_fries, "🍟 fry\t\t$", fry_total)
+print(num_burgers, "🍔 burger\t$", (burger_total,".2f") )
+print(num_fries, "🍟 fry\t\t$", (fry_total, ".2f") )
 print("-" * 20)
 print("Total\t\t$", meal_total)

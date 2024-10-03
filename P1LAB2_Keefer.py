@@ -26,13 +26,11 @@ print("Of course, 3 burgers and 4 fries")
 burger_total = num_burgers * burger_cost
 fry_total = num_fries * fry_cost
 meal_total = burger_total + fry_total
+#emjipedia has emojis to copy/paste
+#format() lets us only show 2 decimal places
 
 print("-" * 20)
-print(num_burgers, "burger\t$", burger_total)
-print(num_fries, "fry\t\t$", fry_total)
+print(num_burgers, "🍔 burger\t$", burger_total)
+print(num_fries, "🍟 fry\t\t$", fry_total)
 print("-" * 20)
 print("Total\t\t$", meal_total)
-
-
-
-

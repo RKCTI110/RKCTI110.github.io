@@ -21,16 +21,16 @@ total = fuel + hotel + food
 print('🧛 ----------Travel Expenses---------- 🕸️')
 #add expenses
 print('Location:', destination)
-print('Initial Budget: $', format(budget, '.2f'))
+print('Initial Budget: ', '$' + format(budget, '.2f'))
 
-print('Fuel: $', format(fuel, '.2f'))
-print('Hotel: $', format(hotel, ".2f"))
-print('Food: $', format(food, ".2f"))
+print({['Fuel:'] :<15}, '$' + format(fuel, '.2f'))
+print({['Hotel:'] :<15}, "$" + format(hotel, ".2f"))
+print({['Food:'] :<15,} '$' + format(food, ".2f"))
 
-print('Total Expenses: $', format(fuel + hotel + food, '.2f'))
+print({['Total Expenses:']:<15}, '$' + format(fuel + hotel + food, '.2f'))
 print("------------------")
 
-print('Remaining Balance: $', format(budget -  total, '.2f'))
+print('Remaining Balance: ':<35, '$' + format(budget -  total, '.2f'))
 
 
 

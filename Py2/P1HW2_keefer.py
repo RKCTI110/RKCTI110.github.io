@@ -28,7 +28,11 @@ print('Hotel:', hotel)
 print('Food:', food)
 
 print('Total Expenses:', fuel + hotel + food)
+print("------------------")
+
 print('Remaining Balance:', budget -  total)
+
+
 
 
 
